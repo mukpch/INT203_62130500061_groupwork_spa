@@ -1,0 +1,15 @@
+ @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
+
+ .navbar {
+     @apply flex justify-center items-center fixed w-full text-xl font-semibold bg-purple-200 text-purple-900
+ }
+
+ .btn {
+     @apply px-6 py-2 mt-10 ml-80 text-purple-900 bg-purple-300 rounded-md hover:bg-yellow-100 hover:text-yellow-500
+ }
+
+ .textArea{
+     @apply rounded-sm shadow-sm px-4 py-2 w-3/6 mt-4 ml-80 h-40 flex justify-start
+ }
