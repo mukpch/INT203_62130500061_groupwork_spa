@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
-
+import timetable from '../views/TimetableForm.vue'
 import aboutus from '../views/About.vue'
 
 const routes = [{
@@ -13,7 +13,11 @@ const routes = [{
     path: "/aboutus",
     name: "aboutus",
 },
-
+{
+    component: timetable,
+    path: "/timetable",
+    name: "timetable"
+},
 ]
 const router = createRouter({
     history: createWebHistory(process.env.BASE_URL),
